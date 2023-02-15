@@ -16,5 +16,19 @@ public class AutoMain {
 
         System.out.println(autoObj2);
 
+        CocheMain cocheMain = new CocheMain();
+
+        cocheMain.motorElectrico = "Ejemplo Motor";
+        cocheMain.color = "verde";
+        cocheMain.fabricante = "Honda";
+        cocheMain.modelo = "Tito";
+
+        System.out.println(cocheMain);
+
+        //Metodo super constructor un parametro
+
+        CocheMain cocheMain2 = new CocheMain("azul", "alfa", "romeo", 1500d, 4.99, "TXZ");
+        System.out.println(cocheMain2);
+
     }
 }
